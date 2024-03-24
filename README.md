@@ -65,6 +65,7 @@ cũng như khi test và submit ở môi trường chấm điểm trên LMS
 
 - Vì có một số bạn chưa được tiếp cận OOP, LinkedList, ... Vì vậy mình đã có hướng dẫn sơ bộ các cách làm trong file `studyinpink2.h` và `studyinpink2.cpp`.
 - Tất cả đều là góc nhìn chủ quan của mình, có thể đúng có thể sai, mong các bạn bỏ qua các sai sót.
+- Đối với các bạn sử dụng VSC, mình có 1 file chứa các tệp json để định nghĩa các tính năng (run, debug, setting, ...), các bạn có thể tận dụng.
 ## Liên hệ và đóng góp
 [Email](nhan.nguyen2005phuyen@hcmut.edu.vn)
 
