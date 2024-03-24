@@ -25,15 +25,7 @@
 
 - Bước 2: Thêm 2 file bài bài làm `study_in_pink1.cpp` và `study_in_pink1.h`
 
-- Bước 3: Các bạn mở Terminal
-  (dùng bash hoặc các OS UNIX để chạy lệnh vì các lệnh mình viết sẽ không chạy được ở Windows).
-  Các bạn có thể kết nối với WSL Ubuntu của Microsoft để không cần phải set up máy ảo.
-  ![Terminal WSL Ubuntu](https://github.com/nhan2892005/BTL1_KTLT_HCMUT_K23_19-02-2024---test/assets/143471539/36842a20-4502-4da1-83bd-396f6575878f)
-  
-  ![Terminal bash có sẵn ở VSC](https://github.com/nhan2892005/BTL1_KTLT_HCMUT_K23_19-02-2024---test/assets/143471539/2e2189dd-e10d-46dc-a6b8-f7819ad3fed3)
-  Nếu các bạn lười connect với WSL thì hãy dùng bash
-
-- Bước 4: ở thư mục gốc (bạn vừa clone về) chạy lệnh
+- Bước 3: ở thư mục gốc (bạn vừa clone về) chạy lệnh
   
   ```
    g++ -o main main.cpp studyinpink2.cpp
@@ -53,9 +45,9 @@
   
   ![Chạy lệnh để bắt đầu test](https://github.com/nhan2892005/TestCaseAssignment2/assets/143471539/18768cbe-bf41-4f25-ba5a-7b3a28e7bf69)
 
-- Bước 5: Nhận kết quả
+- Bước 4: Nhận kết quả
 
-- Bước 6: Đặt sao cho repo này (hihi)
+- Bước 5: Đặt sao cho repo này (hihi)
 
 ## Lời kết
 - Như đã nói, bộ test không sử dụng bất kì nguồn tài nguyên nào khác ngoài ví dụ của đề và code của mình. 
