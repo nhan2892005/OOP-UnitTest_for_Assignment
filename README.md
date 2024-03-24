@@ -51,7 +51,7 @@
   để kiểm tra test 15
   ```
   
-  ![Chạy lệnh để bắt đầu test](https://github.com/nhan2892005/BTL1_KTLT_HCMUT_K23_19-02-2024---test/assets/143471539/0485ffbf-46ec-464d-98cd-b8f04b3c4427)
+  ![Chạy lệnh để bắt đầu test](https://github.com/nhan2892005/TestCaseAssignment2/assets/143471539/18768cbe-bf41-4f25-ba5a-7b3a28e7bf69)
 
 - Bước 5: Nhận kết quả
 
