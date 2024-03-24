@@ -17,6 +17,8 @@
 - Lưu ý: Đây là bộ test tạo nên từ code của mình, vì vậy mọi kết quả đều không hoàn toàn chính xác.
   Tuy nhiên, nếu bạn mắc lỗi ở 1 test nào đó, hãy liên hệ cho tôi và cùng debug.
 
+- Các bạn phải đọc kĩ các dữ liệu của đề để tránh bị rối khi thực hiện
+
 ## Hướng dẫn sử dụng bộ test
 - Bước 1: Các bạn clone repo của mình về local theo hướng dẫn sau: [cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
@@ -40,7 +42,9 @@
   ```
   ./main <số bắt đầu của task> <số kết thúc của task>
   VD: ./main 1 10
+  
   hoặc
+  
   ./main <số của test>
   VD: ./main 15
   để kiểm tra test 15
