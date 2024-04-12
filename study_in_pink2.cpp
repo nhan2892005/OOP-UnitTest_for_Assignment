@@ -5,7 +5,7 @@
 /// Complete the following functions
 /// DO NOT modify any parameters in the functions.
 ////////////////////////////////////////////////////////////////////////
-//Ở file cpp, để định nghĩa các phương thức ta code như sau
+//Ở file cpp, để định nghĩa các phương thức ta hiện thực như sau
 //Ví dụ class MapElements
 MapElement::MapElement(ElementType in_type) 
     : type(in_type) {}

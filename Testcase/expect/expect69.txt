@@ -19,4 +19,4 @@ New position of robotW: Robot[pos=(163,93),type=W;dist=398]
 Check ROBOTSW
 Current position of robotSW: Robot[pos=(162,93),type=SW;dist=470]
 RobotSW makes a move
-New position of robotSW: Robot[pos=(164,93),type=SW;dist=466]
+New position of robotSW: Robot[pos=(163,94),type=SW;dist=468]
