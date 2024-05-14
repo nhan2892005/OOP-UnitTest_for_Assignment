@@ -619,9 +619,23 @@ public:
     static void TestProgram(string input_file){
         StudyPinkProgram * program = new StudyPinkProgram(input + input_file);
         program->run(1);
+        OUTPUT << program->infoProgram << endl;
         delete program;
         //program = new StudyPinkProgram(input + input_file);
         //program->run(0);
+    }
+
+    static void TestProgram2(string input_file){
+        StudyPinkProgram * program = new StudyPinkProgram(input + input_file);
+        program->run(0);
+        OUTPUT << program->infoProgram << endl;
+        delete program;
+        //program = new StudyPinkProgram(input + input_file);
+        //program->run(0);
+    }
+
+    static void LocalTest(){
+
     }
 };
 
@@ -664,9 +678,13 @@ void run(string input_file)
     {
         TestStudyInPink::checkBag(input_file);
     }
-    else if(test <= 100)
+    else if(test <= 130)
     {
         TestStudyInPink::TestProgram(input_file);
+    }
+    else if (test <= 150)
+    {
+        TestStudyInPink::TestProgram2(input_file);
     }
 }
 
@@ -704,10 +722,14 @@ int main(int argc, char *argv[])
             run(stringTask);
             OUTPUT.close();            
         }
+        else if(stringTask == "local"){
+            cout << "checking LocalTest : ";
+            TestStudyInPink::LocalTest();
+        }
         else if(stringTask == "me")
         {
             cout << "checking test : ";
-            for (int i = 1; i <= 1000; i++)
+            for (int i = 1; i <= 90; i++)
             {
                 cout << i << " ";
                 OUTPUT.open(folder_output + to_string(i) + ".txt");
