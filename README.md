@@ -13,7 +13,7 @@
     - Phần 7: Khởi tạo được các đối tượng Robot và hiện thực đúng các phương thức. Test 61 tới 70
     - Phần 8: Khởi tạo được các đối tượng BaseItem và hiện thực đúng các phương thức. Test 71 tới 80
     - Phần 9: Khởi tạo được các đối tượng BaseBag và hiện thực đúng các phương thức. Test 81 tới 90
-    - Phần 10: Chạy chương trình hoàn chỉnh bằng phương thức `run` trong class `StudyPinkProgram`. Test 91 tới 100 (Tuy nhiên test này vẫn chưa hoàn thành và chưa sử dụng được)
+    - Phần 10: Chạy chương trình hoàn chỉnh bằng phương thức `run` trong class `StudyPinkProgram`. Test 91 tới 150 (Lưu ý: Đọc các phương thức in thông tin chương trình trong class StudyPinkProgram đã có sẵn trong file study_in_pink2.h)
 
 - Lưu ý: Đây là bộ test tạo nên từ code của mình, vì vậy mọi kết quả đều không hoàn toàn chính xác.
   Tuy nhiên, nếu bạn mắc lỗi ở 1 test nào đó, hãy liên hệ cho tôi và cùng debug.
