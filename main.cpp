@@ -617,25 +617,40 @@ public:
     }  
 
     static void TestProgram(string input_file){
+        // Lưu trữ buffer hiện tại của std::cout
+        std::streambuf* originalBuffer = std::cout.rdbuf();
+
+        // Đặt buffer của std::cout tới file
+        std::cout.rdbuf(OUTPUT.rdbuf());
+
         StudyPinkProgram * program = new StudyPinkProgram(input + input_file);
         program->run(1);
-        OUTPUT << program->infoProgram << endl;
         delete program;
         //program = new StudyPinkProgram(input + input_file);
         //program->run(0);
+
+        // Khôi phục buffer ban đầu của std::cout
+        std::cout.rdbuf(originalBuffer);
     }
 
     static void TestProgram2(string input_file){
+        // Lưu trữ buffer hiện tại của std::cout
+        std::streambuf* originalBuffer = std::cout.rdbuf();
+
+        // Đặt buffer của std::cout tới file
+        std::cout.rdbuf(OUTPUT.rdbuf());
+
         StudyPinkProgram * program = new StudyPinkProgram(input + input_file);
         program->run(0);
-        OUTPUT << program->infoProgram << endl;
         delete program;
         //program = new StudyPinkProgram(input + input_file);
         //program->run(0);
+        // Khôi phục buffer ban đầu của std::cout
+        std::cout.rdbuf(originalBuffer);
     }
 
-    static void LocalTest(){
-
+    static void Test(){
+        
     }
 };
 
@@ -693,14 +708,14 @@ int main(int argc, char *argv[])
 	cout << "Start program assignments 2" << endl;
 
 
-    int START = 1, END = 90;
-    int fullTask = 90;
+    int START = 1, END = 150;
+    int fullTask = 150;
 
     if (argc == 1)
     {
         cout << "checking test : ";
         START = 1;
-        END = 90;
+        END = 150;
         for (int i = START; i <= END; i++)
         {
             cout << i << " ";
@@ -724,7 +739,7 @@ int main(int argc, char *argv[])
         }
         else if(stringTask == "local"){
             cout << "checking LocalTest : ";
-            TestStudyInPink::LocalTest();
+            TestStudyInPink::Test();
         }
         else if(stringTask == "me")
         {
